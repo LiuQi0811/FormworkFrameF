@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="frame-common-security" />
         <module name="frame-common-core" />
         <module name="frame-auth" />
         <module name="frame-api-system" />

@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>frame-common-core</module>
+        <module>frame-common-security</module>
     </modules>
 
     <properties>

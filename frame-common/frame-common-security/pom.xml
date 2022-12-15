@@ -3,30 +3,29 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
+        <artifactId>frame-common</artifactId>
         <groupId>com.frame</groupId>
-        <artifactId>formwork-frame</artifactId>
         <version>3.6.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>frame-auth</artifactId>
+
+    <artifactId>frame-common-security</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
-        <!-- SpringBoot Web -->
+        <!-- Spring Web -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
         </dependency>
-        <!-- FrameCommonCore -->
         <dependency>
             <groupId>com.frame</groupId>
             <artifactId>frame-common-core</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.frame</groupId>
-            <artifactId>frame-api-system</artifactId>
-            <version>3.6.1</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
-
 </project>

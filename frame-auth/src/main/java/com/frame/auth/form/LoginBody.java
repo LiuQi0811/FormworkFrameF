@@ -1,6 +1,8 @@
 package com.frame.auth.form;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author LiuQi
@@ -8,6 +10,8 @@ import lombok.Data;
  * @data 2022/12/15 15:42
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Builder
 public class LoginBody {
 
