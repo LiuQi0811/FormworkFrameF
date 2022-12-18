@@ -1,4 +1,4 @@
-package com.frame.core.utils;
+package com.frame.common.core.utils;
 
 /**
  * @author LiuQi

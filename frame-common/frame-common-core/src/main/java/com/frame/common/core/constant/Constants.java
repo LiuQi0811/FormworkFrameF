@@ -1,4 +1,4 @@
-package com.frame.core.constant;
+package com.frame.common.core.constant;
 
 /**
  * @author LiuQi

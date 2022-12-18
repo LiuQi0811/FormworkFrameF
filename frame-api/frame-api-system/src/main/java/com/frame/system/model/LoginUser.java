@@ -16,8 +16,8 @@ import java.util.Set;
 @Data
 @Builder
 public class LoginUser implements Serializable {
-    private static final long serialVersionUID = 1L;
 
+    private static final long serialVersionUID = 1L;
 
     private String token; //用户唯一标识
 

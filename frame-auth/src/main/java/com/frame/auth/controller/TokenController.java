@@ -2,7 +2,7 @@ package com.frame.auth.controller;
 
 import com.frame.auth.form.LoginBody;
 import com.frame.auth.service.SysLoginService;
-import com.frame.core.domain.R;
+import com.frame.common.core.domain.R;
 import com.frame.system.model.LoginUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;

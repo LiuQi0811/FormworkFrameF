@@ -3,25 +3,31 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
+        <artifactId>frame-common</artifactId>
         <groupId>com.frame</groupId>
-        <artifactId>formwork-frame</artifactId>
         <version>3.6.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>frame-common</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>frame-common-core</module>
-        <module>frame-common-security</module>
-        <module>frame-common-datascope</module>
-        <module>frame-common-swagger</module>
-    </modules>
+    <artifactId>frame-common-swagger</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <!-- SpringBoot Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Swagger -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.fox.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -212,6 +212,7 @@
         <module>frame-auth</module>
         <module>frame-common</module>
         <module>frame-api</module>
+        <module>frame-modules</module>
     </modules>
     <packaging>pom</packaging>
 

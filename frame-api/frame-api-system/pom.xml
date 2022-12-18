@@ -10,18 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>frame-api-system</artifactId>
-    <dependencies>
-        <!-- Lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- Frame Common Core-->
+        <dependency>
+            <groupId>com.frame</groupId>
+            <artifactId>frame-common-core</artifactId>
+            <version>${frame.version}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

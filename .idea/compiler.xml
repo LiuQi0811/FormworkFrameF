@@ -2,14 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="frame-modules-system" />
+        <module name="frame-api-system" />
+        <module name="frame-common-datascope" />
         <module name="frame-common-security" />
+        <module name="frame-common-swagger" />
         <module name="frame-common-core" />
         <module name="frame-auth" />
-        <module name="frame-api-system" />
       </profile>
     </annotationProcessing>
   </component>

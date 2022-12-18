@@ -23,9 +23,11 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
+        <!-- Frame Api System -->
         <dependency>
             <groupId>com.frame</groupId>
-            <artifactId>frame-common-core</artifactId>
+            <artifactId>frame-api-system</artifactId>
+            <version>${frame.version}</version>
         </dependency>
     </dependencies>
 </project>

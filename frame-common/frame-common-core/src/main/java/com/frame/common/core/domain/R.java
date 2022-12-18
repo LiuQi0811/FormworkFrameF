@@ -1,6 +1,6 @@
-package com.frame.core.domain;
+package com.frame.common.core.domain;
 
-import com.frame.core.constant.Constants;
+import com.frame.common.core.constant.Constants;
 
 import java.io.Serializable;
 
